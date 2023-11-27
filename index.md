@@ -30,3 +30,5 @@ Suites can contain embedded suites, p.18
 What we already know, p.19
     bullet points
 Extending our program to do more, p.20
+(..)
+Iterating over a sequence of objects, p.24
