@@ -5,5 +5,4 @@
 
 # Chapter 1 - the basics, p.1
 (..)
-Asking the interpreter for help on a function, p.41
-    help()
+There are nu dumb questions, p.45
