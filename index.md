@@ -13,3 +13,6 @@ Executing code, one statement at a time, p.8
     Let's be the Python interpreter
 Functions + Modules = The Standard Library, p.9
 Up close with the standard library, p.10
+Batteries included, p.12
+There are no dumb questions, p.12
+Data structures come built in, p.13
