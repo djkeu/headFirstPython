@@ -14,3 +14,6 @@ for i in range(5):
         print("Deze minuut ziet er nogal oneven uit.")
     else:
         print("Dit is geen oneven minuut zeg.")
+
+    wait_time = random.randint(1, 60)
+    time.sleep(wait_time)
