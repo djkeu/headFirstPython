@@ -1,10 +1,9 @@
-# Bits and odds, pieces of code from the book
-
+# Head first Python, p.17
 import datetime
 
-# P.17
+
 this_day = datetime.date.today()
-today =''
+# today =''  # No need to define var today here
 
 if this_day.weekday() == 5:
     today = 'Saturday'
