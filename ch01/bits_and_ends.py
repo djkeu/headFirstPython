@@ -19,4 +19,17 @@ if today == 'Saturday':
 elif today == 'Sunday':
     print("Recover...")
 else:
-    print("Werken, werken. Alsmaar werken")
+    print("Werken, werken. \nAlsmaar werken.")
+
+
+# Cleaner version
+print()
+
+if this_day.weekday == 5:
+    print("Feestjuh!!!")
+elif this_day.weekday ==6:
+    print(".. ka .. t .. er ..")
+else:
+    print("werke werke \nalsmaar werke.")
+
+print()
