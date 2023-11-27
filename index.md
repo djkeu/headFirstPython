@@ -16,3 +16,13 @@ Up close with the standard library, p.10
 Batteries included, p.12
 There are no dumb questions, p.12
 Data structures come built in, p.13
+Python variables are dynamically assigned, p.13
+Invoking methods obtains results, p.14
+    Invoking built-in module funtionality
+Deciding when to run blocks of code, p.15
+    the 'in' operator
+    Blocks in Python are easy to spot..
+What happened to my curly braces, p.16
+    A colon introduces an indented suite of code
+What else can you have with if, p.17
+    elif
