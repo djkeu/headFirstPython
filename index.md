@@ -26,3 +26,7 @@ What happened to my curly braces, p.16
     A colon introduces an indented suite of code
 What else can you have with if, p.17
     elif
+Suites can contain embedded suites, p.18
+What we already know, p.19
+    bullet points
+Extending our program to do more, p.20
