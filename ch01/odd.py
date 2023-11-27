@@ -6,3 +6,8 @@ odds = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19,
 
 right_this_time = datetime.today().minute
 
+if right_this_time in odds:
+    print("Deze minuut ziet er nogal oneven uit.")
+else:
+    print("Dit is geen oneven minuut zeg.")
+    
