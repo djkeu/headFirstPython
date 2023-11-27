@@ -4,5 +4,10 @@
 
 
 # Chapter 1 - the basics, p.1
+## Getting started quickly
 (..)
-There are nu dumb questions, p.45
+
+
+# Chapter 2 -  list data, p.47
+## Working with ordered data
+
