@@ -1,4 +1,4 @@
-# Sharpen your pencil, p.43
+# Sharpen your pencil 1, p.43
 
 1   Assign the value 'bottles' to a new variable called 'word'.
 
@@ -13,3 +13,4 @@
 10  Print the last message
 
 Print a new line after eacht loop for readability
+
