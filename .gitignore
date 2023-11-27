@@ -1,0 +1,13 @@
+# Use 'git rm --cached' to remove files already tracked
+
+__pycache__/
+bin/
+
+# Virtual environments
+ll_env/
+pz_env
+mp_env/
+b_env
+
+*.json
+*.sqlite3
