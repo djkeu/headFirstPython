@@ -7,7 +7,10 @@ bin/
 ll_env/
 pz_env
 mp_env/
-b_env
+b_env/
+
+# Head first python
+hf_env/
 
 *.json
 *.sqlite3
