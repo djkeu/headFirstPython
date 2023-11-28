@@ -11,5 +11,4 @@
 # Chapter 2 -  list data, p.47
 ## Working with ordered data
 (..)
-Lists, what we know, p.71
-    bullet points
+Putting slices to work on lists, p.80
