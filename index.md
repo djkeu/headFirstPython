@@ -11,5 +11,5 @@
 # Chapter 2 -  list data, p.47
 ## Working with ordered data
 (..)
-Sharpen your pencil, p.67
-    panic.py
+Lists, what we know, p.71
+    bullet points
