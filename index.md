@@ -16,4 +16,4 @@ Lists: updating what we know, p.89
 # Chapter 3 - stuctured data, p.95
 ## Working with structured data
 (..)
-Recap: Found vowels, p.102
+Selecting a Frequency Count Data Structure, p.104
