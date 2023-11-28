@@ -16,4 +16,5 @@ Lists: updating what we know, p.89
 # Chapter 3 - stuctured data, p.95
 ## Working with structured data
 (..)
-Iterating over a dictionary, p.107
+Frequency count magnets, p.111
+    vowels3.py
