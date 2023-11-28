@@ -38,3 +38,14 @@ print(booklist)
 print(booklist[0:3])
 print(''.join(booklist[0:3]))
 print(''.join(booklist[-4:]))
+
+
+# Stepping with lists, p.79
+print("\nStepping with lists")
+backwards = booklist[::-1]
+print(''.join(backwards))
+
+every_other = booklist[::2]
+print(''.join(every_other))
+
+# Slices
