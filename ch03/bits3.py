@@ -7,3 +7,5 @@ person3 = {
 }
 
 print(person3)
+print(person3['Home Planet'])
+print(person3['Name'])
