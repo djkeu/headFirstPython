@@ -11,5 +11,5 @@
 # Chapter 2 -  list data, p.47
 ## Working with ordered data
 (..)
-Putting slices to work on lists, p.80
-    panic_head_first.py
+Python's 'for' loop understands lists, p.86
+    marvin.py
