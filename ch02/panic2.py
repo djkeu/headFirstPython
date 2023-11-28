@@ -14,14 +14,11 @@ for letter in phrase:
     if letter in letters_to_keep:
         if letter not in found:
             found.append(letter)
-    print(f"Found: {found}")
 plist = found
-print(f"plist: {plist}")
 
 plist.insert(2, plist.pop(3))
 plist.insert(-1, plist.pop())
 
-print()
 new_phrase = ''.join(plist)
 print(plist)
 print(new_phrase)
