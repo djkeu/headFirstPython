@@ -11,4 +11,4 @@
 # Chapter 2 -  list data, p.47
 ## Working with ordered data
 (..)
-Removing objects from a list, p.62
+Sharpen your pencil, p.67
