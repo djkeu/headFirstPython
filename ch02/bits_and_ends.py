@@ -49,3 +49,5 @@ every_other = booklist[::2]
 print(''.join(every_other))
 
 # Slices
+print(''.join(booklist[4:15]))
+print(''.join(booklist[17:6:-1]))
