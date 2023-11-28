@@ -12,4 +12,3 @@
 ## Working with ordered data
 (..)
 A list is and ordered collection of objects, p.54
-
