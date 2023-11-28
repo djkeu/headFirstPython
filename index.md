@@ -11,5 +11,4 @@
 # Chapter 2 -  list data, p.47
 ## Working with ordered data
 (..)
-Python's 'for' loop understands slices, p.87
-    marvin.py
+Lists: updating what we know, p.89
