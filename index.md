@@ -10,4 +10,6 @@
 
 # Chapter 2 -  list data, p.47
 ## Working with ordered data
+(..)
+A list is and ordered collection of objects, p.54
 
