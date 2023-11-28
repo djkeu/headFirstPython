@@ -4,7 +4,15 @@ plist = list(phrase)
 print(phrase)
 print(plist)
 
-# Add list manipuolation code here
+# Add list manipulation code here
+plist.remove("'")  # alt: plist.pop(3)
+plist.pop(0)
+
+for i in range(4):
+    plist.pop()
+
+plist.extend(plist.pop(-2))
+plist.insert(2, plist.pop(3))
 
 new_phrase = ''.join(plist)
 print(plist)
