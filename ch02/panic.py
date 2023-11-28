@@ -1,4 +1,4 @@
-# Sharpen your pencils, p.67
+# Sharpen your pencil, p.67
 
 phrase = "Don't panic!"
 plist = list(phrase)
