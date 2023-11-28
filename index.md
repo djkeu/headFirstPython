@@ -12,3 +12,6 @@
 ## Working with ordered data
 (..)
 Lists: updating what we know, p.89
+
+# Chapter 3 - stuctured data, p.95
+## Working with structured data
