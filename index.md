@@ -12,3 +12,4 @@
 ## Working with ordered data
 (..)
 Putting slices to work on lists, p.80
+    panic_head_first.py
