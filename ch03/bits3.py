@@ -5,3 +5,5 @@ person3 = {
     'Occupation': 'Researcher',
     'Home Planet': 'Betelgeuze Seven',
 }
+
+print(person3)
