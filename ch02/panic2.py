@@ -49,6 +49,10 @@ new_phrase = ''.join(plist)
 """
 # End code to change
 
+new_phrase = plist[1:-4]
+new_phrase.remove(new_phrase[2])
+new_phrase.insert(2, new_phrase.pop(3))
+new_phrase.insert(-1, new_phrase.pop(-1))
 
 print(plist)
 print(new_phrase)
