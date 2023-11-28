@@ -10,9 +10,13 @@ plist.pop(0)
 
 for i in range(4):
     plist.pop()
+    print(plist)
 
 plist.extend(plist.pop(-2))
+print(plist)
 plist.insert(2, plist.pop(3))
+print(plist)
+print()
 
 new_phrase = ''.join(plist)
 print(plist)
