@@ -15,3 +15,5 @@ Lists: updating what we know, p.89
 
 # Chapter 3 - stuctured data, p.95
 ## Working with structured data
+(..)
+Insertion order is not maintained, p.99
