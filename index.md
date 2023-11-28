@@ -12,3 +12,4 @@
 ## Working with ordered data
 (..)
 Sharpen your pencil, p.67
+    panic.py
