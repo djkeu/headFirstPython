@@ -9,6 +9,7 @@ for letter in word:
 #2
 print()
 found_vowels = []
+word = input("Noem eens woord of een zin, dat zeg ik welke klinkers er in zitten: ")
 
 for letter in word:
     if letter in vowels:
