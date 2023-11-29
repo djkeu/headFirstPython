@@ -21,4 +21,4 @@ Combining the built-in data structures, p.135
 # Chapter 4 - code reuse, p.145
 ## Functions and Modules
 (..)
-The case of the misbehaving function arguments, p.184
+Can I test for PEP8 compliance, p.188
