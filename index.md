@@ -16,5 +16,5 @@ Lists: updating what we know, p.89
 # Chapter 3 - stuctured data, p.95
 ## Working with structured data
 (..)
-Creating sets efficiently, p.124
-    vowels3, vowels5
+Making the case for tuples, p.132
+    vowels8
