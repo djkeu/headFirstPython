@@ -21,5 +21,5 @@ Combining the built-in data structures, p.135
 # Chapter 4 - code reuse, p.145
 ## Functions and Modules
 (..)
-Specifying default values for arguments, p.170
+Functions beget modules, p.173
     vsearch.py
