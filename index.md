@@ -21,4 +21,4 @@ Combining the built-in data structures, p.135
 # Chapter 4 - code reuse, p.145
 ## Functions and Modules
 (..)
-Modules, what we know already, p.183
+The case of the misbehaving function arguments, p.184
