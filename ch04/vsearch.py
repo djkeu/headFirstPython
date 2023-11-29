@@ -1,9 +1,9 @@
-def search_vowels():
-    """Search for vowlels in a word or sentence."""
+def search_vowels(phrase:str) -> set:
+    """Search for vowels in a word or sentence."""
     vowels = set('aeiou')
-    word = input("Voer een woord of een zin in: ")
-    found = vowels.intersection(set(word))
-    for vowel in found:
-        print(vowel)
+    return vowels.intersection(set(phrase))
 
-search_vowels()
+
+def search_for_letters(phrase:str, letters:str) -> set:
+    """Return set of letters found in a phrase."""
+    return set(letters).intersection(set(phrase))
