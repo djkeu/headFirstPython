@@ -21,4 +21,5 @@ Combining the built-in data structures, p.135
 # Chapter 4 - code reuse, p.145
 ## Functions and Modules
 (..)
-
+Reusing code with functions, p.146
+    function_template.py
