@@ -16,5 +16,4 @@ Lists: updating what we know, p.89
 # Chapter 3 - stuctured data, p.95
 ## Working with structured data
 (..)
-Making the case for tuples, p.132
-    vowels8
+Combining the built-in data structures, p.135
