@@ -7,3 +7,8 @@ def search_vowels(phrase:str) -> set:
 def search_for_letters(phrase:str, letters:str) -> set:
     """Return set of letters found in a phrase."""
     return set(letters).intersection(set(phrase))
+
+result_1 = search_for_letters('marc', 'abc')
+result_2 = search_for_letters('the eternal sunshine of the spotless mind', 'aeiou')
+
+print(result_1, result_2)
