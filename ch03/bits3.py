@@ -49,3 +49,8 @@ people["Robot"] = {
 }
 
 print(people)
+
+# Pretty-printing, p.139
+import pprint
+
+pprint.pprint(people)
