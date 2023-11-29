@@ -6,3 +6,4 @@ def search_vowels():
     for vowel in found:
         print(vowel)
 
+search_vowels()
