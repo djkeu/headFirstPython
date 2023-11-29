@@ -11,4 +11,4 @@ def search_letters(phrase:str, letters:str='aeiou') -> set:
 result_1 = search_letters('marc', 'abc')
 result_2 = search_letters('the eternal sunshine of the spotless mind', 'aeiou')
 
-print(result_1, result_2)
+# print(result_1, result_2)
