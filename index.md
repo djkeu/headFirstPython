@@ -22,3 +22,4 @@ Combining the built-in data structures, p.135
 ## Functions and Modules
 (..)
 Can I test for PEP8 compliance, p.188
+    pip install pycodestyle
