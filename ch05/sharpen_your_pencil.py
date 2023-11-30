@@ -10,6 +10,6 @@ def hello() -> str:
 
 @app.route('/search4')
 def do_search() -> str:
-    return search_letters('marc kooij')
+    return str(search_letters('marc kooij'))
 
 app.run()
