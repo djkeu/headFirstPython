@@ -29,3 +29,8 @@ Can I test for PEP8 compliance, p.188
 (..)
 Dunder name dunder, p.239
     dunder.py
+
+# Chapter 6 - storing and manipulating data, p.243
+## Where to put your data
+
+
