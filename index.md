@@ -27,5 +27,5 @@ Can I test for PEP8 compliance, p.188
 # Chapter 5 - building a webapp, p.195
 ## Getting real
 (..)
-Python: what you already know, p.196
-    bullet points
+Sharpen your pencil, p.209
+    sharpen_your_pencil.py
