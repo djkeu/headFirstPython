@@ -34,5 +34,5 @@ Dunder name dunder, p.239
 ## Where to put your data
 
 Exercise, p.249
-    /webapp/vsearch4web.py
+    ch06/vsearch4web.py
 
