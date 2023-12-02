@@ -12,6 +12,7 @@ def log_request(req, res: str) -> None:
         print(req.form, file=log)
         print(req.remote_addr, file=log)
         print(req.user_agent, file=log)
+        print(res, file=log)
 
 
 @app.route('/search4', methods=['POST'])
