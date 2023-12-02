@@ -11,7 +11,7 @@ def log_request(req, res: str) -> None:
     with open('vsearch.log', 'a') as log:
         print(req.form, file=log)
         print(req.remote_addr, file=log)
-        
+        print(req.user_agent, file=log)
 
 
 @app.route('/search4', methods=['POST'])
