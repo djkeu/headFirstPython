@@ -1,12 +1,2 @@
-ImmutableMultiDict([('phrase', 'daf jksdfklsdl jdfsd'), ('letters', 'aeiou')])
-127.0.0.1
-Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0
-{'a'}
-ImmutableMultiDict([('phrase', 'popopopodf'), ('letters', 'aeiou')])
-127.0.0.1
-Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0
-{'o'}
-ImmutableMultiDict([('phrase', 'niet alles is een klinker, hoort u wel'), ('letters', 'aeiou')])
-127.0.0.1
-Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0
-{'u', 'e', 'a', 'i', 'o'}
+ImmutableMultiDict([('phrase', 'wat zien we hier allemaal? koeien en schapen'), ('letters', 'abcde')])|127.0.0.1|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0|{'c', 'a', 'e'}
+ImmutableMultiDict([('phrase', 'ik weet niet hoor, of dit wel goed komt'), ('letters', 'abcde')])|127.0.0.1|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0|{'d', 'e'}
