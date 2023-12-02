@@ -7,8 +7,7 @@ app = Flask(__name__)
 
 
 def log_request(req, res: str) -> None:
-    filename = 'vsearch.log'
-    with open(filename, 'a') as log:
+    with open('vsearch.log', 'a') as log:
         print(req, res, file=log)
 
 
@@ -34,6 +33,12 @@ def entry_page() -> 'html':
         'entry.html',
         the_title="Welcome to search4letters on the web!"
         )
+
+@app.route('/viewlog')
+def view_the_log() -> str:
+    with open('vsearch.log') as log:
+        contents = log.read()
+        return escape(contents)
 
 
 if __name__ == '__main__':
