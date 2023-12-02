@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request
+from markupsafe import escape
 import html
 
 from vsearch import search_letters
