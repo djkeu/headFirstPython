@@ -33,5 +33,5 @@ Dunder name dunder, p.239
 # Chapter 6 - storing and manipulating data, p.243
 ## Where to put your data
 
-View the log through your webapp, p.254
+Exercise, p.259
     webapp/vsearch4web.py
