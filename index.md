@@ -33,5 +33,5 @@ Dunder name dunder, p.239
 # Chapter 6 - storing and manipulating data, p.243
 ## Where to put your data
 
-Exercise, p.259
+From raw data to readable output, p.265
     webapp/vsearch4web.py
