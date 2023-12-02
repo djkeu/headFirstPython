@@ -1,5 +1,2 @@
-ImmutableMultiDict([('phrase', 'wat zien we hier allemaal? koeien en schapen'), ('letters', 'abcde')])|127.0.0.1|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0|{'c', 'a', 'e'}
-ImmutableMultiDict([('phrase', 'ik weet niet hoor, of dit wel goed komt'), ('letters', 'abcde')])|127.0.0.1|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0|{'d', 'e'}
-ImmutableMultiDict([('phrase', 'ik weet niet hoor, of dit wel goed komt'), ('letters', 'abcde')])|127.0.0.1|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0|{'e', 'd'}
-ImmutableMultiDict([('phrase', 'nog een zin'), ('letters', 'abcde')])|127.0.0.1|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0|{'e'}
-ImmutableMultiDict([('phrase', 'ha ho he hi een zin'), ('letters', 'abcde')])|127.0.0.1|Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0|{'a', 'e'}
+ImmutableMultiDict([('phrase', 'nog een test'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0|{'e', 'o'}
+ImmutableMultiDict([('phrase', 'wat een mooie zin, met veel klinkers and all'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0|{'a', 'i', 'o', 'e'}
