@@ -46,4 +46,5 @@ Database enabling your webapp, p.282
     db: vsearchlogDB
     grant all privileges to 'vsearch'
 
-DB-API up close, p.290
+(..)
+Task 4: Create code.., p.296
