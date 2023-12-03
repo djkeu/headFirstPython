@@ -43,6 +43,7 @@ Current state of our webapp code, p.278
 Note:
 Database enabling your webapp, p.282
     create user 'vsearch´, password 'vsearchpasswd
+    db: vsearchlogDB
     grant all privileges to 'vsearch'
 
 Decide on a structure on for your log data, p.288
