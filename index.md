@@ -42,9 +42,9 @@ Current state of our webapp code, p.278
 
 Note:
 Database enabling your webapp, p.282
-    create user 'vsearch´, password 'vsearchpasswd
-    db: vsearchlogDB
-    grant all privileges to 'vsearch'
+    database: vsearchlogDB
+    > create user 'vsearch' identified by 'vsearchpasswd';
+    > grant all on vsearchlogDB.* to vsearch;
 
 (..)
 Storing data is only half the battle, p.300
