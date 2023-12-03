@@ -47,4 +47,4 @@ Database enabling your webapp, p.282
     grant all privileges to 'vsearch'
 
 (..)
-Task 4: Create code.., p.296
+Database magnets, p.297
