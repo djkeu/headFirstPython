@@ -41,3 +41,5 @@ Current state of our webapp code, p.278
 ## Putting Python's DB-API to Use
 
 Database enabling your webapp, p.282
+    create user 'vsearch´, password 'vsearchpasswd
+    grant all privileges to 'vsearch'
