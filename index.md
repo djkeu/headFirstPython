@@ -47,4 +47,4 @@ Database enabling your webapp, p.282
     grant all privileges to 'vsearch'
 
 (..)
-Database magnets, p.297
+Storing data is only half the battle, p.300
