@@ -40,6 +40,9 @@ Current state of our webapp code, p.278
 # Chapter 7 - using a database, p.281
 ## Putting Python's DB-API to Use
 
+Note:
 Database enabling your webapp, p.282
     create user 'vsearch´, password 'vsearchpasswd
     grant all privileges to 'vsearch'
+
+Decide on a structure on for your log data, p.288
