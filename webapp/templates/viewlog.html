@@ -1,4 +1,4 @@
-{% extends base.html %}
+{% extends 'base.html' %}
 
 {% block body %}
 
@@ -7,13 +7,14 @@
 <table>
     <tr>
         {% for row_title in row_titles %}
-        <th>{{row_title}}</th>
+            <th>{{row_title}}</th>
+        {% endfor %}
     </tr>
     {% for log_row in the_data %}
         <tr>
             {% for item in log_row %}
-                {% <td>{{itemd}}</td>}
-            {% endfor %}            
+                <td>{{item}}</td>
+            {% endfor %}   
         </tr>
     {% endfor %}
 </table>
