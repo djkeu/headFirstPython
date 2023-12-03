@@ -33,5 +33,6 @@ Dunder name dunder, p.239
 # Chapter 6 - storing and manipulating data, p.243
 ## Where to put your data
 
-Generate Readable Output With HTML, p.274
+Current state of our webapp code, p.278
     webapp/vsearch4web.py
+    templates/
