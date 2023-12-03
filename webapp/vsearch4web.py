@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
 from markupsafe import escape
 import html
+import mysql.connector
 
 from vsearch import search_letters
 
@@ -8,8 +9,27 @@ app = Flask(__name__)
 
 
 def log_request(req, res: str) -> None:
-    with open('vsearch.log', 'a') as log:
-        print(req.form, req.remote_addr, req.user_agent, res, file=log, sep='|')
+    db_config = { 'host': '127.0.0.1',
+                'user': 'vsearch',
+                'password': 'vsearchpasswd',
+                'database': 'vsearchlogDB', }
+
+    conn = mysql.connector.connect(**db_config)
+    cursor = conn.cursor()
+
+    _sql = """insert into log
+        (phrase, letters, ip, browser_string, results)
+        values(%s, %s, %s, %s, %s)"""
+
+    cursor.execute(_sql, (req.form['phrase'],
+                        req.form['letters'], 
+                        req.remote_addr,
+                        req.user_agent.string,
+                        res, ))
+    conn.commit()
+
+    cursor.close()
+    conn.close()
 
 
 @app.route('/search4', methods=['POST'])
