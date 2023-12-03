@@ -36,3 +36,7 @@ Dunder name dunder, p.239
 Current state of our webapp code, p.278
     webapp/vsearch4web.py
     templates/
+
+# Chapter 7 - using a database, p.281
+## Putting Python's DB-API to Use
+
