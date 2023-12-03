@@ -46,4 +46,4 @@ Database enabling your webapp, p.282
     db: vsearchlogDB
     grant all privileges to 'vsearch'
 
-Decide on a structure on for your log data, p.288
+DB-API up close, p.290
