@@ -24,7 +24,7 @@ def log_request(req, res: str) -> None:
     cursor.execute(_sql, (req.form['phrase'],
                         req.form['letters'], 
                         req.remote_addr,
-                        req.user_agent.string,
+                        req.headers.get('User-Agent'),
                         res, ))
     conn.commit()
 
