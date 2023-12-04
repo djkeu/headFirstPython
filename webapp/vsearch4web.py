@@ -26,8 +26,8 @@ def log_request(req, res: str) -> None:
                         req.remote_addr,
                         req.headers.get('User-Agent'),
                         res, ))
-    conn.commit()
 
+    conn.commit()
     cursor.close()
     conn.close()
 
