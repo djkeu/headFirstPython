@@ -47,12 +47,11 @@ Dunder init(), p.324
 
 # Chapter 9 - the context mangament protocol, p.335
 ## Hooking into Python's 'with' statement
-
-
+(..)
+Consider what you're trying to do revisited, p.337
 
 
 Note:
-Database enabling your webapp, p.282
-    database: vsearchlogDB
-    > create user 'vsearch' identified by 'vsearchpasswd';
-    > grant all on vsearchlogDB.* to vsearch;
+database: vsearchlogDB
+> create user 'vsearch' identified by 'vsearchpasswd';
+> grant all on vsearchlogDB.* to vsearch;
