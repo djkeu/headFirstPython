@@ -46,5 +46,7 @@ Database enabling your webapp, p.282
     > create user 'vsearch' identified by 'vsearchpasswd';
     > grant all on vsearchlogDB.* to vsearch;
 
-(..)
-Storing data is only half the battle, p.300
+# Chapter 8 - a little bit of class, p.309
+## Abstracting behaviour and state
+
+Hooking into the 'with' statement, p.310
