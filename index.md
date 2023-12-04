@@ -49,4 +49,4 @@ Database enabling your webapp, p.282
 # Chapter 8 - a little bit of class, p.309
 ## Abstracting behaviour and state
 
-Hooking into the 'with' statement, p.310
+An object-oriented primer, p.311
