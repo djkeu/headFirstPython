@@ -48,5 +48,5 @@ Database enabling your webapp, p.282
 
 # Chapter 8 - a little bit of class, p.309
 ## Abstracting behaviour and state
-
-Coping with scoping, p.321
+(..)
+Dunder init(), p.324
