@@ -40,13 +40,19 @@ Current state of our webapp code, p.278
 # Chapter 7 - using a database, p.281
 ## Putting Python's DB-API to Use
 
+# Chapter 8 - a little bit of class, p.309
+## Abstracting behaviour and state
+(..)
+Dunder init(), p.324
+
+# Chapter 9 - the context mangament protocol, p.335
+## Hooking into Python's 'with' statement
+
+
+
+
 Note:
 Database enabling your webapp, p.282
     database: vsearchlogDB
     > create user 'vsearch' identified by 'vsearchpasswd';
     > grant all on vsearchlogDB.* to vsearch;
-
-# Chapter 8 - a little bit of class, p.309
-## Abstracting behaviour and state
-(..)
-Dunder init(), p.324
