@@ -49,4 +49,4 @@ Database enabling your webapp, p.282
 # Chapter 8 - a little bit of class, p.309
 ## Abstracting behaviour and state
 
-An object-oriented primer, p.311
+Coping with scoping, p.321
