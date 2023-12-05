@@ -6,7 +6,8 @@ class UseDatabase:
         self.configuration = self.config
 
     def __enter__(self):
-        pass
+        self.conn = mysql.connector.connect(**self.configuration)
+        self.cursor = self.conn.cursor()
 
     def __exit__(self):
         pass
