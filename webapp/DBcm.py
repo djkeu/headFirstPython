@@ -9,5 +9,7 @@ class UseDatabase:
         self.conn = mysql.connector.connect(**self.configuration)
         self.cursor = self.conn.cursor()
 
+        return self.cursor
+
     def __exit__(self):
         pass
