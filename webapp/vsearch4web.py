@@ -14,8 +14,16 @@ app.config['dbconfig'] = { 'host': '127.0.0.1',
 
 def log_request(req, res: str) -> None:
     """Log details of the web request and the results."""
-    conn = mysql.connector.connect(**db_config)
-    cursor = conn.cursor()
+
+    with UseDatabase(app.config['dbconfig']) as cursor:
+        _sql = """insert into log
+            (phrase, letters, ip, browser_string, results)
+            values(%s, %s, %s, %s, %s)"""
+    cursor.execute(_sql, (req.form['phrase'],
+                        req.form['letters'],
+                        req.remote_addr,
+                        req.user_agent.string,
+                        res, ))
 
     _sql = """insert into log
         (phrase, letters, ip, browser_string, results)
@@ -26,10 +34,6 @@ def log_request(req, res: str) -> None:
                         req.remote_addr,
                         req.headers.get('User-Agent'),
                         res, ))
-
-    conn.commit()
-    cursor.close()
-    conn.close()
 
 
 @app.route('/search4', methods=['POST'])
