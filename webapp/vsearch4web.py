@@ -26,7 +26,6 @@ def log_request(req, res: str) -> None:
                         res, ))
 
 
-
 @app.route('/search4', methods=['POST'])
 def do_search() -> 'html':
     phrase = request.form['phrase']
@@ -56,7 +55,6 @@ def view_the_log() -> 'html':
     """Display the contenst of a log file as HTML table."""
     with UseDatabase(app.config['dbconfig']) as cursor:
         _sql = """select phrase, letters, ip, browser_string, results from log"""
-
         cursor.execute(_sql)
         contents = cursor.fetchall()
         titles = ('Phrase', 'Letters', 'Remote_addr', 'User_agent', 'Results')
