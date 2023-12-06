@@ -7,13 +7,12 @@ from DBcm import UseDatabase
 
 app = Flask(__name__)
 
+app.config['dbconfig'] = { 'host': '127.0.0.1',
+                        'user': 'vsearch',
+                        'password': 'vsearchpasswd',
+                        'database': 'vsearchlogDB', }
 
 def log_request(req, res: str) -> None:
-    db_config = { 'host': '127.0.0.1',
-                'user': 'vsearch',
-                'password': 'vsearchpasswd',
-                'database': 'vsearchlogDB', }
-
     conn = mysql.connector.connect(**db_config)
     cursor = conn.cursor()
 
