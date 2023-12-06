@@ -1,9 +1,9 @@
 from flask import Flask, render_template, request
 from markupsafe import escape
-import html
-import mysql.connector
-
 from vsearch import search_letters
+import html
+
+from DBcm import UseDatabase
 
 app = Flask(__name__)
 
