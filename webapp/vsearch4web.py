@@ -19,21 +19,12 @@ def log_request(req, res: str) -> None:
         _sql = """insert into log
             (phrase, letters, ip, browser_string, results)
             values(%s, %s, %s, %s, %s)"""
-    cursor.execute(_sql, (req.form['phrase'],
+        cursor.execute(_sql, (req.form['phrase'],
                         req.form['letters'],
                         req.remote_addr,
                         req.user_agent.string,
                         res, ))
 
-    _sql = """insert into log
-        (phrase, letters, ip, browser_string, results)
-        values(%s, %s, %s, %s, %s)"""
-
-    cursor.execute(_sql, (req.form['phrase'],
-                        req.form['letters'], 
-                        req.remote_addr,
-                        req.headers.get('User-Agent'),
-                        res, ))
 
 
 @app.route('/search4', methods=['POST'])
