@@ -51,8 +51,14 @@ Dunder init(), p.324
 Answering the data questions, p.359
     SQL
 
+# Chapter 10 - function decorators, p.363
+## Wrapping functions
+(..)
 
-Note:
-database: vsearchlogDB
-> create user 'vsearch' identified by 'vsearchpasswd';
-> grant all on vsearchlogDB.* to vsearch;
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+- Note:                                                     -
+-   database: vsearchlogDB                                  -
+-   > create user 'vsearch' identified by 'vsearchpasswd';  -
+-   > grant all on vsearchlogDB.* to vsearch;               -
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
