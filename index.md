@@ -48,9 +48,8 @@ Dunder init(), p.324
 # Chapter 9 - the context mangament protocol, p.335
 ## Hooking into Python's 'with' statement
 (..)
-Sharpen your pencil, p.355
-    vsearch4web.py: view_the_log()
-
+Answering the data questions, p.359
+    SQL
 
 
 Note:
