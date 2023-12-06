@@ -13,6 +13,7 @@ app.config['dbconfig'] = { 'host': '127.0.0.1',
                         'database': 'vsearchlogDB', }
 
 def log_request(req, res: str) -> None:
+    """Log details of the web request and the results."""
     conn = mysql.connector.connect(**db_config)
     cursor = conn.cursor()
 
