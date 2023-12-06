@@ -48,7 +48,7 @@ Dunder init(), p.324
 # Chapter 9 - the context mangament protocol, p.335
 ## Hooking into Python's 'with' statement
 (..)
-Test drive context manager, p.347
+Reconsidering your webapp code, p.348
 
 
 
