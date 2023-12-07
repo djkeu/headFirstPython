@@ -54,8 +54,8 @@ Answering the data questions, p.359
 # Chapter 10 - function decorators, p.363
 ## Wrapping functions
 (..)
-Use * to accept an arbitrar y list of arguments, p.390
-    simple_webapp.py
+Accepting a Dictionary of Arguments, p.392
+    myfunc.py
 
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
