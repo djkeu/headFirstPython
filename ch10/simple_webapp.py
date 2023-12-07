@@ -28,6 +28,12 @@ def do_logout() -> str:
     session.remove('logged_in')
     return 'U bent niet langer ingelogd.'
 
+@app.route('/status')
+def check_status() -> str:
+    if 'logged_in' in session:
+        return "U bent momenteel ingelogd."
+    
+    return "U bent helemaal niet ingelogd."
 
 app.secret_key = 'allesmag'
 
