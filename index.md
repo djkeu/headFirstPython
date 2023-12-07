@@ -54,8 +54,8 @@ Answering the data questions, p.359
 # Chapter 10 - function decorators, p.363
 ## Wrapping functions
 (..)
-Let's do logout, p.377
-    simple_webapp.py
+Why not check for False, p.379
+    shell
 
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
