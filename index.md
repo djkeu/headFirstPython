@@ -54,7 +54,7 @@ Answering the data questions, p.359
 # Chapter 10 - function decorators, p.363
 ## Wrapping functions
 (..)
-Accepting a Dictionary of Arguments, p.392
+Accepting Any Number and Type of Function Arguments, p.394
     myfunc.py
 
 
