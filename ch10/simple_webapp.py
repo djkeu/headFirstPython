@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, session
 
 app = Flask(__name__)
 
@@ -17,6 +17,8 @@ def page2() -> str:
 @app.route('/page3')
 def page3() -> str:
     return 'Derde set'
+
+
 
 if __name__ == '__main__':
     app.run(debug=True)
