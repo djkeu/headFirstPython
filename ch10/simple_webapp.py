@@ -23,6 +23,12 @@ def do_login() -> str:
     session['logged_in'] = True
     return "U bent ingelogd hoor."
 
+@app.route('/logout')
+def do_logout() -> str:
+    session.remove('logged_in')
+    return 'U bent niet langer ingelogd.'
+
+
 app.secret_key = 'allesmag'
 
 
