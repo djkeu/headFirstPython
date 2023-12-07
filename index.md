@@ -54,7 +54,7 @@ Answering the data questions, p.359
 # Chapter 10 - function decorators, p.363
 ## Wrapping functions
 (..)
-Pass a function to a function, but..., p.386
+Use * to accept an arbitrar y list of arguments, p.390
     simple_webapp.py
 
 
