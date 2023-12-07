@@ -20,7 +20,10 @@ def page3() -> str:
 
 @app.route('/login')
 def do_login() -> str:
-    pass
+    session['logged_in'] = True
+    return "U bent ingelogd hoor."
+
+app.secret_key = 'allesmag'
 
 
 if __name__ == '__main__':
