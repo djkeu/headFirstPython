@@ -54,8 +54,8 @@ Answering the data questions, p.359
 # Chapter 10 - function decorators, p.363
 ## Wrapping functions
 (..)
-Why not check for False, p.379
-    shell
+Creating a function helps, but..., p.384
+    simple_webapp.py
 
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
