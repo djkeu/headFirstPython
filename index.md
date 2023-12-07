@@ -54,7 +54,7 @@ Answering the data questions, p.359
 # Chapter 10 - function decorators, p.363
 ## Wrapping functions
 (..)
-Creating a function helps, but..., p.384
+Pass a function to a function, but..., p.386
     simple_webapp.py
 
 
