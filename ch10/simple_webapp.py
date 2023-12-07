@@ -18,6 +18,9 @@ def page2() -> str:
 def page3() -> str:
     return 'Derde set'
 
+@app.route('/login')
+def do_login() -> str:
+    pass
 
 
 if __name__ == '__main__':
