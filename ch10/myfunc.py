@@ -7,7 +7,7 @@ def print_args1(*args):
         print()
 
 def print_args2(**kwargs):  # keyword args, for dicts
-    for k, v in kwargs:
+    for k, v in kwargs.items():
         print(k, v, sep='->', end=' ')
     if kwargs:
         print()
