@@ -25,7 +25,7 @@ def do_login() -> str:
 
 @app.route('/logout')
 def do_logout() -> str:
-    session.remove('logged_in')
+    session.pop('logged_in')
     return 'U bent niet langer ingelogd.'
 
 @app.route('/status')
