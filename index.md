@@ -54,8 +54,9 @@ Answering the data questions, p.359
 # Chapter 10 - function decorators, p.363
 ## Wrapping functions
 (..)
-Ready bake code, p.374
+Let's do login, p.375
     simple_webapp.py
+
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 - Note:                                                     -
