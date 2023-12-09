@@ -16,12 +16,14 @@ app.config['dbconfig'] = {'host': '127.0.0.1',
 
 @app.route('/login')
 def do_login() -> str:
-    if session['logged_in'] in session:
-        print('U bent ingelogd hoor')
+    if session['logged_in'] == True:
+        return 'U bent ingelogd hoor.'
 
 
 @app.route('/logout')
 def do_logout() -> str:
+    session.pop('logged_in')
+    return 'U bent niet meer ingelogd.'
 
 
 def log_request(req, res: str) -> None:
