@@ -1,7 +1,7 @@
 import html
 
 from flask import Flask, render_template, request
-from markupsafe import escape
+# from markupsafe import escape
 
 from vsearch import search_letters
 from DBcm import UseDatabase
