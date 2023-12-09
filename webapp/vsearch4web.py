@@ -1,6 +1,6 @@
 import html  # Prevent undefined variable error in do_search()
 
-from flask import Flask, render_template, request, escape, session
+from flask import Flask, render_template, request, session
 
 from vsearch import search_letters
 from DBcm import UseDatabase
