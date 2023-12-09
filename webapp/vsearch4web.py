@@ -1,4 +1,4 @@
-import html
+import html  # Prevent undefined variable error in do_search()
 
 from flask import Flask, render_template, request
 # from markupsafe import escape
