@@ -1,16 +1,18 @@
-from flask import Flask, render_template, request
-from markupsafe import escape
-from vsearch import search_letters
 import html
 
+from flask import Flask, render_template, request
+from markupsafe import escape
+
+from vsearch import search_letters
 from DBcm import UseDatabase
 
 app = Flask(__name__)
 
-app.config['dbconfig'] = { 'host': '127.0.0.1',
-                        'user': 'vsearch',
-                        'password': 'vsearchpasswd',
-                        'database': 'vsearchlogDB', }
+app.config['dbconfig'] = {'host': '127.0.0.1',
+                          'user': 'vsearch',
+                          'password': 'vsearchpasswd',
+                          'database': 'vsearchlogDB', }
+
 
 def log_request(req, res: str) -> None:
     """Log details of the web request and the results."""
@@ -20,10 +22,10 @@ def log_request(req, res: str) -> None:
             (phrase, letters, ip, browser_string, results)
             values(%s, %s, %s, %s, %s)"""
         cursor.execute(_sql, (req.form['phrase'],
-                        req.form['letters'],
-                        req.remote_addr,
-                        req.user_agent.string,
-                        res, ))
+                              req.form['letters'],
+                              req.remote_addr,
+                              req.user_agent.string,
+                              res, ))
 
 
 @app.route('/search4', methods=['POST'])
