@@ -54,7 +54,11 @@ Answering the data questions, p.359
 # Chapter 10 - function decorators, p.363
 ## Wrapping functions
 (..)
-Back to restricing access to /viewlog, p.408
+
+# Chapter 11 - exception handling, p.413
+## What to do when things go wrong
+
+Databases aren't always available, p.418
     /webapp/vsearch4web.py
 
 
