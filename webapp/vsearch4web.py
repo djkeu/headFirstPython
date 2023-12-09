@@ -80,5 +80,7 @@ def view_the_log() -> 'html':
                                the_data=contents,)
 
 
+app.secret_key = 'allesmag'
+
 if __name__ == '__main__':
     app.run(debug=True)
