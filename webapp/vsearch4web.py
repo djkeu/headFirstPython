@@ -1,6 +1,6 @@
 import html  # Prevent undefined variable error in do_search()
 
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, escape, session
 
 from vsearch import search_letters
 from DBcm import UseDatabase
@@ -12,6 +12,16 @@ app.config['dbconfig'] = {'host': '127.0.0.1',
                           'user': 'vsearch',
                           'password': 'vsearchpasswd',
                           'database': 'vsearchlogDB', }
+
+
+@app.route('/login')
+def do_login() -> str:
+    if session['logged_in'] in session:
+        print('U bent ingelogd hoor')
+
+
+@app.route('/logout')
+def do_logout() -> str:
 
 
 def log_request(req, res: str) -> None:
@@ -53,6 +63,7 @@ def entry_page() -> 'html':
 
 
 @app.route('/viewlog')
+@check_logged_in
 def view_the_log() -> 'html':
     """Display the contenst of a log file as HTML table."""
     with UseDatabase(app.config['dbconfig']) as cursor:
