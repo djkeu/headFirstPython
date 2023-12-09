@@ -54,8 +54,8 @@ Answering the data questions, p.359
 # Chapter 10 - function decorators, p.363
 ## Wrapping functions
 (..)
-Accepting Any Number and Type of Function Arguments, p.394
-    myfunc.py
+Back to restricing access to /viewlog, p.408
+    /webapp/vsearch4web.py
 
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
