@@ -58,8 +58,8 @@ Answering the data questions, p.359
 # Chapter 11 - exception handling, p.413
 ## What to do when things go wrong
 
-Learning about exceptions from sys, p.430
-    /ch11/try_examples.py
+Getting back to our webapp code, p.433
+    /webapp/vsearch4web.py
 
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
