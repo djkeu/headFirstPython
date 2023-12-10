@@ -28,7 +28,6 @@ def do_logout() -> str:
 
 def log_request(req, res: str) -> None:
     """Log details of the web request and the results."""
-
     with UseDatabase(app.config['dbconfig']) as cursor:
         _sql = """insert into log
             (phrase, letters, ip, browser_string, results)
@@ -46,8 +45,10 @@ def do_search() -> 'html':
     letters = request.form['letters']
     title = "Here are you results:"
     results = str(search_letters(phrase, letters))
-    log_request(request, results)
-
+    try:
+        log_request(request, results)
+    except Exception as err:
+        print("Inloggen mislukt met deze foutmelding:", str(err))
     return render_template('results.html',
                            the_phrase=phrase,
                            the_letters=letters,
