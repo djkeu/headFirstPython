@@ -16,7 +16,7 @@ app.config['dbconfig'] = {'host': '127.0.0.1',
 
 @app.route('/login')
 def do_login() -> str:
-    session['logged_in'] == True
+    session['logged_in'] = True
     return 'U bent ingelogd hoor.'
 
 
