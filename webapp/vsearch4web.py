@@ -1,4 +1,4 @@
-import html  # Prevent undefined variable error in do_search()
+import html  # Prevent undefined variable error in annotations
 
 from flask import Flask, render_template, request, session
 
