@@ -58,7 +58,7 @@ Answering the data questions, p.359
 # Chapter 11 - exception handling, p.413
 ## What to do when things go wrong
 
-Getting back to our webapp code, p.433
+Handling other database errors, p.440
     /webapp/vsearch4web.py
 
 
