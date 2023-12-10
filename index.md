@@ -58,8 +58,8 @@ Answering the data questions, p.359
 # Chapter 11 - exception handling, p.413
 ## What to do when things go wrong
 
-Databases aren't always available, p.418
-    /webapp/vsearch4web.py
+Learning about exceptions from sys, p.430
+    /ch11/try_examples.py
 
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
