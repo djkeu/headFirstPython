@@ -1,8 +1,8 @@
 import html  # Prevent undefined variable error in annotations
 
 from flask import Flask, render_template, request, session
-
 from vsearch import search_letters
+
 from DBcm import UseDatabase
 from checker import check_logged_in
 
@@ -16,8 +16,8 @@ app.config['dbconfig'] = {'host': '127.0.0.1',
 
 @app.route('/login')
 def do_login() -> str:
-    if session['logged_in'] == True:
-        return 'U bent ingelogd hoor.'
+    session['logged_in'] == True
+    return 'U bent ingelogd hoor.'
 
 
 @app.route('/logout')
