@@ -3,7 +3,7 @@ import html  # Prevent undefined variable error in annotations
 from flask import Flask, render_template, request, session
 from vsearch import search_letters
 
-from DBcm import UseDatabase, ConnectionError
+from DBcm import UseDatabase, ConnectionError, CredentialsError
 from checker import check_logged_in
 
 app = Flask(__name__)
