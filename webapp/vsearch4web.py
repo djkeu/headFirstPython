@@ -3,7 +3,7 @@ import html  # Prevent undefined variable error in annotations
 from flask import Flask, render_template, request, session
 from vsearch import search_letters
 
-from DBcm import UseDatabase, ConnectionError, CredentialsError
+from DBcm import UseDatabase, ConnectionError, CredentialsError, SQLError
 from checker import check_logged_in
 
 app = Flask(__name__)
@@ -86,6 +86,8 @@ def view_the_log() -> 'html':
         print('Is your database switched on? Error:', str(err))
     except CredentialsError as err:
         print('User-id/Password issues. Error:', str(err))
+    except SQLError as err:
+        print('Is your query correct? Error:', str(err))
     except Exception as err:
         print('Something went wrong', str(err))
     return 'Error'
