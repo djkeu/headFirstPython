@@ -45,7 +45,6 @@ def do_search() -> 'html':
                                 req.user_agent.string,
                                 res, ))
 
-
     phrase = request.form['phrase']
     letters = request.form['letters']
     title = "Here are you results:"
@@ -55,7 +54,7 @@ def do_search() -> 'html':
         t.start()
         # log_request(request, results)
     except Exception as err:
-        print("Inloggen mislukt met deze foutmelding:", str(err))
+        print("***Inloggen mislukt met deze foutmelding:", str(err))
     return render_template('results.html',
                            the_phrase=phrase,
                            the_letters=letters,
