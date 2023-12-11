@@ -67,7 +67,14 @@ How to deal with wait? It depends, p.456
 How are you quering your database, p.463
     vsearch4web.py
 
+# Chapter 12 - advanced iteration, p.477
+## Looping like crazy
 
+Bahama buzzers have place to go, p.478
+
+
+
+# Database
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 - Note:                                                     -
 -   database: vsearchlogDB                                  -
