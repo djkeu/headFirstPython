@@ -58,9 +58,8 @@ Answering the data questions, p.359
 # Chapter 11 - exception handling, p.413
 ## What to do when things go wrong
 
-What else can go wrong with DBcm, p.448
+How to deal with wait? It depends, p.456
     /webapp/vsearch4web.py
-    /webapp/DBcm.py
 
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
