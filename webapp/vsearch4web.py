@@ -1,7 +1,7 @@
 import html  # Prevent undefined variable error in annotations
 
 from threading import Thread
-from flask import Flask, render_template, request, session
+from flask import Flask, render_template, request, session, copy_current_request_context
 from vsearch import search_letters
 
 from DBcm import UseDatabase, ConnectionError, CredentialsError, SQLError
@@ -30,6 +30,7 @@ def do_logout() -> str:
 @app.route('/search4', methods=['POST'])
 def do_search() -> 'html':
 
+    @copy_current_request_context
     def log_request(req, res: str) -> None:
         """Log details of the web request and the results."""
         # raise Exception("Something awful just happened.")
