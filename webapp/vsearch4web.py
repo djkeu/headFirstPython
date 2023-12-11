@@ -28,7 +28,7 @@ def do_logout() -> str:
 
 def log_request(req, res: str) -> None:
     """Log details of the web request and the results."""
-    raise Exception("Something awful just happened.")
+    # raise Exception("Something awful just happened.")
 
     with UseDatabase(app.config['dbconfig']) as cursor:
         _sql = """insert into log
