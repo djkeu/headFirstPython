@@ -34,4 +34,3 @@ class UseDatabase:
             raise SQLError(exc_value)
         elif exc_type:  # Be extra safe
             raise exc_type(exc_value)
-        
