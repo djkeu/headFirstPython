@@ -1,5 +1,6 @@
 import html  # Prevent undefined variable error in annotations
 
+from threading import Thread
 from flask import Flask, render_template, request, session
 from vsearch import search_letters
 
