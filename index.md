@@ -61,6 +61,12 @@ Answering the data questions, p.359
 How to deal with wait? It depends, p.456
     /webapp/vsearch4web.py
 
+# Chapter 11 3/4 - a little bit of threading, p.461
+## Dealing with waiting
+
+How are you quering your database, p.463
+    vsearch4web.py
+
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 - Note:                                                     -
