@@ -81,3 +81,6 @@ Bahama buzzers have place to go, p.478
 -   > create user 'vsearch' identified by 'vsearchpasswd';  -
 -   > grant all on vsearchlogDB.* to vsearch;               -
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Note: Example code
+https://python.itcarlow.ie/ed2/
