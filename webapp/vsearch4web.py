@@ -27,23 +27,24 @@ def do_logout() -> str:
     return 'U bent niet meer ingelogd.'
 
 
-def log_request(req, res: str) -> None:
-    """Log details of the web request and the results."""
-    # raise Exception("Something awful just happened.")
-
-    with UseDatabase(app.config['dbconfig']) as cursor:
-        _sql = """insert into log
-            (phrase, letters, ip, browser_string, results)
-            values(%s, %s, %s, %s, %s)"""
-        cursor.execute(_sql, (req.form['phrase'],
-                              req.form['letters'],
-                              req.remote_addr,
-                              req.user_agent.string,
-                              res, ))
-
-
 @app.route('/search4', methods=['POST'])
 def do_search() -> 'html':
+
+    def log_request(req, res: str) -> None:
+        """Log details of the web request and the results."""
+        # raise Exception("Something awful just happened.")
+
+        with UseDatabase(app.config['dbconfig']) as cursor:
+            _sql = """insert into log
+                (phrase, letters, ip, browser_string, results)
+                values(%s, %s, %s, %s, %s)"""
+            cursor.execute(_sql, (req.form['phrase'],
+                                req.form['letters'],
+                                req.remote_addr,
+                                req.user_agent.string,
+                                res, ))
+
+
     phrase = request.form['phrase']
     letters = request.form['letters']
     title = "Here are you results:"
