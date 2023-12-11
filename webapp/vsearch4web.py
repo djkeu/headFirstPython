@@ -49,7 +49,9 @@ def do_search() -> 'html':
     title = "Here are you results:"
     results = str(search_letters(phrase, letters))
     try:
-        log_request(request, results)
+        t = Thread(target=log_request, args=(request, results))
+        t.start()
+        # log_request(request, results)
     except Exception as err:
         print("Inloggen mislukt met deze foutmelding:", str(err))
     return render_template('results.html',
