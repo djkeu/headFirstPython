@@ -70,8 +70,7 @@ How are you quering your database, p.463
 # Chapter 12 - advanced iteration, p.477
 ## Looping like crazy
 
-Sharpen your pencil, p.497
-
+Deal with complexity the Python way, p.499
 
 
 # Database webapp
