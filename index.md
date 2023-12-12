@@ -70,11 +70,11 @@ How are you quering your database, p.463
 # Chapter 12 - advanced iteration, p.477
 ## Looping like crazy
 
-Bahama buzzers have place to go, p.478
+Sharpen your pencil, p.497
 
 
 
-# Database
+# Database webapp
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 - Note:                                                     -
 -   database: vsearchlogDB                                  -
