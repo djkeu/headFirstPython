@@ -5,7 +5,8 @@ for num in data:
     if not num % 2:
         evens.append(num)
 
-# ToDo: list comprehension 1
+# Done: list comprehension 1
+evens = [ num for num in data if not num % 2 ]
 
 
 # sharpen your pencil 2
@@ -15,8 +16,8 @@ for num in data:
     if isinstance(num, str):
         words.append(num)
 
-# ToDo: list comprehension 2
-
+# Done: list comprehension 2
+words = [ num for num in data if isinstance(num, str) ]
 
 # sharpen your pencil 3
 data = list('So long and thanks for all the fish'.split())
@@ -24,4 +25,5 @@ title = []
 for word in data:
     title.append(word.title())
 
-# ToDo: list comprehension 3
+# Done: list comprehension 3
+title = [ word.title() for word in data ]
